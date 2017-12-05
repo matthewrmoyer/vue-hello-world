@@ -5,6 +5,9 @@
     <h2 v-once> V-Once Title: {{ title }}</h2>
     <p> {{ sayHi() }} </p>
     <a v-bind:href="link">Portfolio Site</a>
+    <hr>
+    <p v-html="finishedLink"></p>
+
   </div>
 </template>
 
@@ -13,7 +16,8 @@
     data() {
       return {
         title: 'Hello World',
-        link: 'https://matthewmoyer.rocks'
+        link: 'https://matthewmoyer.rocks',
+        finishedLink: "<a href='https://matthewmoyer.rocks'>Portfolio Site V-HTML</a>"
       }
     },
     methods: {
