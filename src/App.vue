@@ -2,7 +2,9 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-link to="/">Home</router-link>
-    <router-link to="/assignments/1">Go to Assignment 1</router-link>
+    <router-link to="/assignments/1">Assignment 1</router-link>
+    <router-link to="/events">Events</router-link>
+    
     <router-view/>
   </div>
 </template>
