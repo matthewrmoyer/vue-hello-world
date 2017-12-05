@@ -5,6 +5,8 @@
     <router-link to="/assignments/1">Assignment 1</router-link>
     <router-link to="/events">Events</router-link>
     <router-link to="/computedandwatch">Computed And Watch</router-link>
+    <router-link to="/styling">Styling</router-link>
+    
     
     
     <router-view/>

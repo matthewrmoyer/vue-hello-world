@@ -4,6 +4,8 @@ import HelloWorld from '@/components/HelloWorld'
 import AssignmentOne from '@/components/AssignmentOne'
 import Events from '@/components/Events'
 import ComputedAndWatch from '@/components/ComputedAndWatch'
+import Styling from '@/components/Styling'
+
 
 
 Vue.use(Router)
@@ -29,6 +31,11 @@ export default new Router({
       path: '/computedandwatch',
       name: 'ComputedAndWatch',
       component: ComputedAndWatch
+    },
+    {
+      path: '/styling',
+      name: 'Styling',
+      component: Styling
     }
 
   ]

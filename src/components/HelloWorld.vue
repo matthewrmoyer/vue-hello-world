@@ -13,7 +13,7 @@
 
 <script>
   export default {
-    data() {
+    data () {
       return {
         title: 'Hello World',
         link: 'https://matthewmoyer.rocks',
@@ -21,14 +21,14 @@
       }
     },
     methods: {
-      changeTitle(e) {
+      changeTitle (e) {
         this.title = e.target.value
       },
-      sayHi() {
+      sayHi () {
         this.title = 'Yo World'
         return this.title
       }
-    },
+    }
   }
 </script>
 
