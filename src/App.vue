@@ -7,9 +7,8 @@
     <router-link to="/computedandwatch">Computed And Watch</router-link>
     <router-link to="/styling">Styling</router-link>
     <router-link to="/conditionalsandlists">Conditionals and Lists</router-link>
-    
-    
-    
+    <router-link to="/sharingDataParent">Sharing Data Parent</router-link>
+    <router-link to="/sharingDataChild">Sharing Data Child</router-link>
     
     <router-view/>
   </div>

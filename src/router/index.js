@@ -6,6 +6,11 @@ import Events from '@/components/Events'
 import ComputedAndWatch from '@/components/ComputedAndWatch'
 import Styling from '@/components/Styling'
 import ConditionalsAndLists from '@/components/ConditionalsAndLists'
+import SharingDataParent from '@/components/SharingDataParent'
+
+
+import SharingDataChild from '@/components/SharingDataChild'
+
 
 
 
@@ -43,6 +48,16 @@ export default new Router({
       path: '/conditionalsandlists',
       name: 'ConditionalsAndLists',
       component: ConditionalsAndLists
+    },
+    {
+      path: '/sharingDataParent',
+      name: 'SharingDataParent',
+      component: SharingDataParent
+    },
+    {
+      path: '/sharingDataChild',
+      name: 'SharingDataChild',
+      component: SharingDataChild
     }
 
   ]
