@@ -5,6 +5,8 @@ import AssignmentOne from '@/components/AssignmentOne'
 import Events from '@/components/Events'
 import ComputedAndWatch from '@/components/ComputedAndWatch'
 import Styling from '@/components/Styling'
+import ConditionalsAndLists from '@/components/ConditionalsAndLists'
+
 
 
 
@@ -36,6 +38,11 @@ export default new Router({
       path: '/styling',
       name: 'Styling',
       component: Styling
+    },
+    {
+      path: '/conditionalsandlists',
+      name: 'ConditionalsAndLists',
+      component: ConditionalsAndLists
     }
 
   ]

@@ -6,6 +6,8 @@
     <router-link to="/events">Events</router-link>
     <router-link to="/computedandwatch">Computed And Watch</router-link>
     <router-link to="/styling">Styling</router-link>
+    <router-link to="/conditionalsandlists">Conditionals and Lists</router-link>
+    
     
     
     
