@@ -9,6 +9,10 @@
     <router-link to="/conditionalsandlists">Conditionals and Lists</router-link>
     <router-link to="/sharingDataParent">Sharing Data Parent</router-link>
     <router-link to="/sharingDataChild">Sharing Data Child</router-link>
+    <router-link to="/sharingDataCallbacksParent">Sharing Data With Callbacks Parent</router-link>
+    <router-link to="/sharingDataCallbacksChild">Sharing Data With Callbacks Child</router-link>
+    
+    
     
     <router-view/>
   </div>

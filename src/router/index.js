@@ -7,9 +7,11 @@ import ComputedAndWatch from '@/components/ComputedAndWatch'
 import Styling from '@/components/Styling'
 import ConditionalsAndLists from '@/components/ConditionalsAndLists'
 import SharingDataParent from '@/components/SharingDataParent'
-
-
 import SharingDataChild from '@/components/SharingDataChild'
+import SharingDataCallbacksParent from '@/components/SharingDataCallbacksParent'
+import SharingDataCallbacksChild from '@/components/SharingDataCallbacksChild'
+
+
 
 
 
@@ -58,6 +60,16 @@ export default new Router({
       path: '/sharingDataChild',
       name: 'SharingDataChild',
       component: SharingDataChild
+    },
+    {
+      path: '/sharingDataCallbacksParent',
+      name: 'SharingDataCallbacksParent',
+      component: SharingDataCallbacksParent
+    },
+    {
+      path: '/sharingDataCallbacksChild',
+      name: 'SharingDataCallbacksChild',
+      component: SharingDataCallbacksChild
     }
 
   ]
